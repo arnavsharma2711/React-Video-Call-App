@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 body {
-    background: url(https://pixabay.com/get/g71ad5f1368904fb5ee497360d1f60e5f5562ef66cccf294437f558dcb11a3063fe6e479fd69b551c17804b16b529299a_1920.jpg), 
-    linear-gradient(
-      rgba(0, 0, 0, 0.3), 
-      rgba(0, 0, 0, 0.3)
-    );
+    background-image: url("./background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
