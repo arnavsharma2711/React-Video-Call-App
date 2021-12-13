@@ -8,6 +8,7 @@ import Notifications from './components/Notifications';
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
+    background: 'rgba(255,255,255, 0.25)',
     borderRadius: 15,
     margin: '30px 100px',
     display: 'flex',
@@ -15,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'center',
     alignItems: 'center',
     width: '600px',
-    border: '2px solid black',
+    border: '1px solid rgba(255,255,255, 0.4)',
 
     [theme.breakpoints.down('xs')]: {
       width: '90%',
